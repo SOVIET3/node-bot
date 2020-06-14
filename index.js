@@ -36,11 +36,11 @@ client.on('message', (message) => {
   }
 
   if(message.content == 'embed GTA') {
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
+    let img = 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
-      .setURL('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256')
-      .setAuthor('GTA5 server', img, 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256')
+      .setURL('https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
+      .setAuthor('GTA5 server', img, 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
       .setThumbnail(img)
       .addBlankField()
       .addField('Inline field title', 'Some value here')
