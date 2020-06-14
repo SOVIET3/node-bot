@@ -38,7 +38,7 @@ client.on('message', (message) => {
   if(message.content == 'embed GTA') {
     let img = 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg';
     let embed = new Discord.RichEmbed()
-      .setTitle('타이틀')
+      .setTitle('GTA SERVER!')
       .setURL('https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
       .setAuthor('GTA5 server', img, 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
       .setThumbnail(img)
