@@ -35,12 +35,12 @@ client.on('message', (message) => {
     return message.reply('예 행님? 부르셨나요 ?');
   }
 
-  if(message.content == 'embed') {
+  if(message.content == 'embed GTA') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
       .setTitle('타이틀')
-      .setURL('https://t1.daumcdn.net/cfile/tistory/99BF0E3359C23BAA33')
-      .setAuthor('GTA5 server', img, 'https://t1.daumcdn.net/cfile/tistory/99BF0E3359C23BAA33')
+      .setURL('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256')
+      .setAuthor('GTA5 server', img, 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256')
       .setThumbnail(img)
       .addBlankField()
       .addField('Inline field title', 'Some value here')
@@ -88,7 +88,7 @@ client.on('message', (message) => {
   
       return message.reply('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256');
     } else {
-      return message.reply('수종봇 태스트');
+      return message.reply('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256');
     }
   }
 });
