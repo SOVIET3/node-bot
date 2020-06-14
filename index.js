@@ -86,9 +86,9 @@ client.on('message', (message) => {
         x.user.send(`<@${message.author.id}> ${contents}`);
       });
   
-      return message.reply('test');
+      return message.reply('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256');
     } else {
-      return message.reply('');
+      return message.reply('수종봇 태스트');
     }
   }
 });
