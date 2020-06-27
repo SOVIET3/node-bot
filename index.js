@@ -53,19 +53,19 @@ client.on('message', (message) => {
       .setFooter('GTA5', img)
 
     message.channel.send(embed)
-  } else if(message.content == 'embed2') {
+  } else if(message.content == 'HELP 수종봇') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
-      {name: 'ping', desc: '현재 핑 상태'},
-      {name: 'embed', desc: 'embed 예제1'},
-      {name: 'embed2', desc: 'embed 예제2 (help)'},
+      {name: '!수종봇', desc: '예 행님 부르셨나요 ?'},
+      {name: 'embed GTA', desc: '서버방 정보나옴'},
+      {name: 'HELP 수종봇', desc: '지금보고있는거 나옴(help)'},
       {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('Help of 콜라곰 BOT', helpImg)
+      .setAuthor('Help of 수종봇', helpImg)
       .setColor('#186de6')
-      .setFooter(`콜라곰 BOT ❤️`)
+      .setFooter(`수종봇`)
       .setTimestamp()
     
     commandList.forEach(x => {
