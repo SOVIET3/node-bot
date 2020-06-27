@@ -69,7 +69,7 @@ client.on('message', (message) => {
       .setTimestamp()
     
     commandList.forEach(x => {
-      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
+      commandStr += `• \`\`${changeCommandStringLength(`${x.name test}`)}\`\` : **${x.desc}**\n`;
     });
 
     embed.addField('Commands: ', commandStr);
@@ -86,9 +86,9 @@ client.on('message', (message) => {
         x.user.send(`<@${message.author.id}> ${contents}`);
       });
   
-      return message.reply('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256');
+      return message.reply('https://www.bing.com/images/search?view=detailV2&ccid=F34I1qGy&id=FAF589BD58F20CAE578F3C7354E907DD418FF6B5&thid=OIP.F34I1qGykn_-Odb82UGoFgHaEK&mediaurl=http%3a%2f%2fcs1.gtaall.com%2fscreenshots%2f4dc09%2f2015-09%2foriginal%2fc7307a46de5a3d3015696b1ec3ea20cd52df7844%2f297041-gta-sa-2015-09-30-22-05-15-371.jpg&exph=1080&expw=1920&q=gta&simid=608009803830788827&ck=1E5BBD4786D3EC9BB603B66CAEA5ECFA&selectedIndex=140');
     } else {
-      return message.reply('https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256');
+      return message.reply('https://www.bing.com/images/search?view=detailV2&ccid=F34I1qGy&id=FAF589BD58F20CAE578F3C7354E907DD418FF6B5&thid=OIP.F34I1qGykn_-Odb82UGoFgHaEK&mediaurl=http%3a%2f%2fcs1.gtaall.com%2fscreenshots%2f4dc09%2f2015-09%2foriginal%2fc7307a46de5a3d3015696b1ec3ea20cd52df7844%2f297041-gta-sa-2015-09-30-22-05-15-371.jpg&exph=1080&expw=1920&q=gta&simid=608009803830788827&ck=1E5BBD4786D3EC9BB603B66CAEA5ECFA&selectedIndex=140');
     }
   }
 });
