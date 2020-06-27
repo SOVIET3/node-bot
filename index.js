@@ -69,7 +69,7 @@ client.on('message', (message) => {
       .setTimestamp()
     
     commandList.forEach(x => {
-      commandStr += `• \`\`${changeCommandStringLength(`${x.name test}`)}\`\` : **${x.desc}**\n`;
+      commandStr += `• \`\`${changeCommandStringLength(`${x.name}`)}\`\` : **${x.desc}**\n`;
     });
 
     embed.addField('Commands: ', commandStr);
