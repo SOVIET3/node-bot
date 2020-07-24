@@ -35,12 +35,12 @@ client.on('message', (message) => {
     return message.reply('너도 ?');
   }
   
-  if(message.content == '!수종봇') {
-    return message.reply('');
+  if(message.content == '!수종봇 명재,성호,훈민') {
+    return message.reply('https://discordapp.com/channels/718833869331365939/719178199229005855/736184928437272639');
   }
  
-  if(message.content == '!수종봇') {
-    return message.reply('');
+  if(message.content == '!수종봇 뭐해?') {
+    return message.reply('https://th.bing.com/th/id/OIP._gD0DJqxOdxuVmivY_4WYwAAAA?w=134&h=180&c=7&o=5&pid=1.7');
   }
   
    if(message.content == '!수종봇') {
@@ -99,8 +99,8 @@ client.on('message', (message) => {
       {name: '서버', desc: '방 정보나옴'},
       {name: 'HELP 수종봇', desc: '지금보고있는거 나옴(help)'},
       {name: '!수종봇 병신', desc: '?'},
-      {name: '', desc: ''},
-      {name: '', desc: ''},  
+      {name: '!수종봇 명재,성호,훈민짤', desc: '????'},
+      {name: '!수종봇 뭐해?', desc: ''},  
       {name: '', desc: ''},
       {name: '', desc: ''},
       {name: '', desc: ''},
