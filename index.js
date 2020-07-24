@@ -32,19 +32,55 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!수종봇 병신') {
-    return message.reply('https://discordapp.com/channels/718833869331365939/718833869331365942/736176495038300170');
+    return message.reply('너도 ?');
   }
-
+  
+  if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+ 
+  if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+   if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+  
+  if(message.content == '!수종봇') {
+    return message.reply('');
+  }
+ 
   if(message.content == '!수종봇') {
     return message.reply('	Ｙｅｓ ｙｅｓ ｄｉｄ ｙｏｕ ｃａｌｌ ？(부르셨나요 ?)');
   }
  
-  if(message.content == 'embed GTA') {
-    let img = 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg';
+  if(message.content == '!서버') {
+    let img = 'https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483';
     let embed = new Discord.RichEmbed()
-      .setTitle('GTA SERVER!')
-      .setURL('https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
-      .setAuthor('GTA5 server', img, 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg')
+      .setTitle('ＧＡＭＥ ＳＥＲＶＥＲ')
+      .setURL('https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483')
+      .setAuthor('ＧＡＭＥ ＳＥＲＶＥＲ', img, 'https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483')
       .setThumbnail(img)
       .addBlankField()
       .addField('Inline field title', 'Some value here')
@@ -54,16 +90,22 @@ client.on('message', (message) => {
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
       .addBlankField()
       .setTimestamp()
-      .setFooter('GTA5', img)
+      .setFooter('ＧＡＭＥ ＳＥＲＶＥＲ', img)
 
     message.channel.send(embed)
   } else if(message.content == 'HELP 수종봇') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
-      {name: '!수종봇', desc: '예 행님 부르셨나요 ?'},
-      {name: 'embed GTA', desc: '서버방 정보나옴'},
+      {name: '!수종봇', desc: ''},
+      {name: '서버', desc: '방 정보나옴'},
       {name: 'HELP 수종봇', desc: '지금보고있는거 나옴(help)'},
-      {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
+      {name: '!수종봇 병신', desc: '?'},
+      {name: '', desc: ''},
+      {name: '', desc: ''},  
+      {name: '', desc: ''},
+      {name: '', desc: ''},
+      {name: '', desc: ''},
+      {name: '', desc: ''},
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
