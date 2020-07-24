@@ -32,9 +32,13 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!수종봇') {
-    return message.reply(':1::2::3::4::5::6::7::8: 네 부르셨나요 ? :12:725445169607999538>:3::4::5::6:<a:7_:7254451698');
+    return message.reply('https://discordapp.com/channels/718833869331365939/718833869331365942/736176495038300170');
   }
 
+  if(message.content == '!수종봇') {
+    return message.reply('	Ｙｅｓ ｙｅｓ ｄｉｄ ｙｏｕ ｃａｌｌ ？(부르셨나요 ?)');
+  }
+ 
   if(message.content == 'embed GTA') {
     let img = 'https://i.ytimg.com/vi/NsHTLYt_WK4/maxresdefault.jpg';
     let embed = new Discord.RichEmbed()
