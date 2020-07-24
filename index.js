@@ -76,18 +76,17 @@ client.on('message', (message) => {
   }
  
   if(message.content == '!서버') {
-    let img = 'https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483';
+    let img = 'https://s3-ap-northeast-2.amazonaws.com/mobiinsidecontent/kr/wp-content/uploads/2020/05/18163747/2.gif';
     let embed = new Discord.RichEmbed()
       .setTitle('ＧＡＭＥ ＳＥＲＶＥＲ')
-      .setURL('https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483')
-      .setAuthor('ＧＡＭＥ ＳＥＲＶＥＲ', img, 'https://discordapp.com/channels/718833869331365939/718833869331365942/736181244815081483')
+      .setURL('https://s3-ap-northeast-2.amazonaws.com/mobiinsidecontent/kr/wp-content/uploads/2020/05/18163747/2.gif')
+      .setAuthor('ＧＡＭＥ ＳＥＲＶＥＲ', img, 'https://s3-ap-northeast-2.amazonaws.com/mobiinsidecontent/kr/wp-content/uploads/2020/05/18163747/2.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('Inline field title', 'Some value here')
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here', true)
-      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+      .addField('수종봇', '장애가 살짝있음')
+      .addField('방', '노는방', true)
+      .addField('타이틀에 넣을꺼 없음', 'ㄹㅇ로다가', true)
+      .addField('임', '수종', true)
       .addBlankField()
       .setTimestamp()
       .setFooter('ＧＡＭＥ ＳＥＲＶＥＲ', img)
