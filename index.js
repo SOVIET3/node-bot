@@ -31,7 +31,7 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '!수종봇') {
+  if(message.content == '!수종봇 병신') {
     return message.reply('https://discordapp.com/channels/718833869331365939/718833869331365942/736176495038300170');
   }
 
