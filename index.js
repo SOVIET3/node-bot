@@ -35,8 +35,8 @@ client.on('message', (message) => {
     return message.reply('너도 ?');
   }
   
-  if(message.content == '!상호작용봇 ') {
-    return message.reply('');
+  if(message.content == '!상호작용봇 제작자') {
+    return message.reply('제작자는𝙇𝙐𝙉𝘼_#4502 라는분이죠!');
   }
  
   if(message.content == '!상호작용봇 뭐해?') {
@@ -92,7 +92,7 @@ client.on('message', (message) => {
       .setFooter('ＧＡＭＥ ＳＥＲＶＥＲ', img)
 
     message.channel.send(embed)
-  } else if(message.content == '!HELP 수종봇') {
+  } else if(message.content == '!HELP 상호작용봇') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '!상호작용봇', desc: ''},
@@ -100,7 +100,7 @@ client.on('message', (message) => {
       {name: 'HELP 상호작용봇', desc: '지금보고있는거 나옴(help)'},
       {name: '!상호작용봇 병신', desc: '?'},
       {name: '!상호작용봇 뭐해?', desc: '답해줌'},  
-      {name: '', desc: ''},
+      {name: '!상호작용봇 제작자', desc: '제작자 나옴'},
       {name: '', desc: ''},
       {name: '', desc: ''},
       {name: '', desc: ''},
