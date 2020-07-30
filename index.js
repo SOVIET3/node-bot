@@ -31,47 +31,47 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '!수종봇 병신') {
+  if(message.content == '!상호작용봇 병신') {
     return message.reply('너도 ?');
   }
   
-  if(message.content == '!수종봇 명재,성호,훈민') {
-    return message.reply('https://discordapp.com/channels/718833869331365939/719178199229005855/736184928437272639');
+  if(message.content == '!상호작용봇 ') {
+    return message.reply('');
   }
  
-  if(message.content == '!수종봇 뭐해?') {
+  if(message.content == '!상호작용봇 뭐해?') {
     return message.reply('https://th.bing.com/th/id/OIP._gD0DJqxOdxuVmivY_4WYwAAAA?w=134&h=180&c=7&o=5&pid=1.7');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-   if(message.content == '!수종봇') {
+   if(message.content == '!상호작용봇') {
     return message.reply('');
   }
   
-  if(message.content == '!수종봇') {
+  if(message.content == '!상호작용봇') {
     return message.reply('');
   }
  
-  if(message.content == '!수종봇') {
+  if(message.content == '!상호작용봇') {
     return message.reply('	Ｙｅｓ ｙｅｓ ｄｉｄ ｙｏｕ ｃａｌｌ ？(부르셨나요 ?)');
   }
  
@@ -83,7 +83,7 @@ client.on('message', (message) => {
       .setAuthor('ＧＡＭＥ ＳＥＲＶＥＲ', img, 'https://s3-ap-northeast-2.amazonaws.com/mobiinsidecontent/kr/wp-content/uploads/2020/05/18163747/2.gif')
       .setThumbnail(img)
       .addBlankField()
-      .addField('수종봇', '장애가 살짝있음')
+      .addField('상호작용봇', '장애가 살짝있음')
       .addField('방', '노는방', true)
       .addField('타이틀에 넣을꺼 없음', 'ㄹㅇ로다가', true)
       .addField('임', '수종', true)
@@ -95,12 +95,11 @@ client.on('message', (message) => {
   } else if(message.content == '!HELP 수종봇') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
-      {name: '!수종봇', desc: ''},
+      {name: '!상호작용봇', desc: ''},
       {name: '서버', desc: '방 정보나옴'},
-      {name: 'HELP 수종봇', desc: '지금보고있는거 나옴(help)'},
-      {name: '!수종봇 병신', desc: '?'},
-      {name: '!수종봇 명재,성호,훈민짤', desc: '????'},
-      {name: '!수종봇 뭐해?', desc: ''},  
+      {name: 'HELP 상호작용봇', desc: '지금보고있는거 나옴(help)'},
+      {name: '!상호작용봇 병신', desc: '?'},
+      {name: '!상호작용봇 뭐해?', desc: '답해줌'},  
       {name: '', desc: ''},
       {name: '', desc: ''},
       {name: '', desc: ''},
@@ -108,9 +107,9 @@ client.on('message', (message) => {
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('Help of 수종봇', helpImg)
+      .setAuthor('Help of 상호작용봇', helpImg)
       .setColor('#186de6')
-      .setFooter(`수종봇`)
+      .setFooter(`상호작용봇`)
       .setTimestamp()
     
     commandList.forEach(x => {
