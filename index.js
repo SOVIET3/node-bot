@@ -105,6 +105,7 @@ client.on('message', (message) => {
       {name: '', desc: ''},
       {name: '', desc: ''},
     ];
+    
     let commandStr = '';
     let embed = new Discord.RichEmbed()
       .setAuthor('Help of 상호작용봇', helpImg)
