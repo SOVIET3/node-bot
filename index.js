@@ -92,7 +92,7 @@ client.on('message', (message) => {
       .setFooter('ＧＡＭＥ ＳＥＲＶＥＲ', img)
 
     message.channel.send(embed)
-  } else if(message.content == '!수종봇 HELP') {
+  } else if(message.content == '!수종봇HELP') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '!수종봇', desc: ''},
