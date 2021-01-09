@@ -10,10 +10,6 @@ client.on('ready', () => {
   console.log('켰다.');
 });
 
-@echo off
-start "" "%~dp0ServerHelper.bat" +InternetServer/LUNA SERVER
-exit
- 
 client.on("guildMemberAdd", (member) => {
   const guild = member.guild;
   const newUser = member.user;
